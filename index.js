@@ -16,7 +16,7 @@ app.use(fileupload({
 const cors = require("cors");
 app.use(
 	cors({
-		origin:"http://localhost:3000",
+		origin:"https://main--jolly-snickerdoodle-2eafd0.netlify.app",
 		credentials:true,
 	})
 );
