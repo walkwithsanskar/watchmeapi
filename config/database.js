@@ -7,6 +7,7 @@ dbConnect = ()=>{
         }).then(()=>{
             console.log("database connection successfull");
         }).catch((error)=>{
+            console.log(error);
             console.log("error couldn't connect to database");
         })
 }
